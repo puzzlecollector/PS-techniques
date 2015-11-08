@@ -1,4 +1,4 @@
-/*Karatsuba fast multiplication. Program not fully tested and optimized yet. 
+/*Karatsuba fast multiplication. Program not fully optimized yet. 
 Suppose we were to multiply two big numbers (each more than 50 digits long). Then the following is a divide 
 and conquer method that supposedly runs in O(n^lg3) time. 
 카라츠바 빠른 곱셈 알고리즘: karatsuba() 함수는 종만북 챕터7 참고
