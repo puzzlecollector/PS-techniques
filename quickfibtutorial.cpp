@@ -3,7 +3,7 @@ int fib(int n){
   if (n <= 2) return 1; 
   return fib(n-1)+fib(n-2);  
 }
-// the above code is exponential is time complexity. It is in fact O(2^n) and it can be proved by solving the 
+// the above code has exponential time complexity. It is in fact O(2^n) and it can be proved by solving the 
 // recurrence relation T(n) = T(n-1)+T(n-2) or by drawing a recursion tree. 
 
 // One way to reduce time complexity is by memoization, or caching values so that we avoid 
