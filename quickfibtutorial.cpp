@@ -7,7 +7,7 @@ int fib(int n){
 // recurrence relation T(n) = T(n-1)+T(n-2) or by drawing a recursion tree. 
 
 // One way to reduce time complexity is by memoization, or caching values so that we avoid 
-// solving already solved suproblems. Below i
+// solving already solved suproblems. Below is an example code in C++
 int cache[MAXN]; 
 int fib(int n){
   if (n <= 2) return 1; 
